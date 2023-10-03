@@ -13,14 +13,14 @@
             <h1 class="display-5 mb-5"><strong>Mail Form  <span>(with php)</span></strong></h1>
         </div>
         <div class="main row justify-content-center">
-                <form action="mail.php" id="form" class="row justify-content-center mb-4" autocomplete="off" method=>
+                <form action="mail.php" id="form" class="row justify-content-center mb-4" autocomplete="off" method="post">
                     <div class="col-10 col-md-8 mb-3">
                         <label for="firstName">First Name</label>
-                        <input class="form-control" id="firstName" type="text" placeholder="Enter First Name">
+                        <input name="name" class="form-control" id="firstName" type="text" placeholder="Enter First Name">
                     </div>
                     <div class="col-10 col-md-8 col-md-8 mb-3">
                         <label for="email">Email</label>
-                        <input class="form-control" id="email" type="text" placeholder="Enter email">
+                        <input  name="email" class="form-control" id="email" type="text" placeholder="Enter email">
                     </div>
                     <div class="col-10 col-md-8 col-md-8 mb-3">
                         <textarea name="message" id="message" cols="60" rows="10" placeholder = "write you message Here" class="form-control"></textarea>
